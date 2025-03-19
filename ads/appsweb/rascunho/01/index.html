@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elementos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        a:visited {
+            color: #770303;
+        }
+        a:hover {
+            color: #f00;
+            text-decoration:none;
+        }
+        a::after {
+            content: '(eu sou um link)';
+            margin-left: 8px;
+            font-size: 10px;
+            color: #5c5c5c6e;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+        }
+        a::before {
+            content: '🔗';
+            margin-right: 8px;
+        }
+        ul {
+            list-style: none;
+            padding: 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Utensilhos foda de cozinha 
+    </h1>
+    <ul>
+        <li><a href="https://http2.mlstatic.com/D_NQ_NP_693286-MLB44022200262_112020-O.webp" target="_blank">Garfolher</a></li>
+        <li><a href="https://http2.mlstatic.com/D_NQ_NP_617017-MLB69261811183_052023-O.webp"target="_blank">Faca</a></li>
+        <li><a href="https://user-images.githubusercontent.com/6800723/270229467-9368a69f-94f2-4683-9e45-e1366db090eb.png"target="_blank">Colher</a></li>
+    </ul>
+
+   
+</body>
+</html>
