@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: rgba(16, 59, 16, 0.418);
+    font-family:
+    }
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+header > p {
+    color: darkgrey;
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+    font-weight: bold
+    font-family:
+    font-size: 1.5em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.img {
+    background-color: darkslategrey;
+    color: white;
+}
+
+section.img > p {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding: 5px 0px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: smaller;
+    padding: 10px;
+}

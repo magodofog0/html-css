@@ -1,4 +1,4 @@
 # html-css
  curso html
 
-olá, terra! porque mundo é só minha namorada
+os mamacos vão dominar o mundo
