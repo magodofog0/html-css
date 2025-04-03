@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -19,7 +21,9 @@ header {
     text-align: center;
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: 'IM Fell Great Primer SC', serif;
+    font-family: "New Tegomin", serif;
+    font-weight: bolder;
+    font-size: 2em;
 }
 
 header > p {
@@ -32,9 +36,13 @@ section {
     padding-bottom: 10%;
     line-height: 2em;
     padding-left: 30px;
-    font-weight: bold
-    font-family:
-    font-size: 1.5em;
+    font-family: "New Tegomin", serif;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -45,19 +53,37 @@ section.normal {
 section.img {
     background-color: darkslategrey;
     color: white;
+    box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.63);
+    background-attachment: fixed;
 }
 
 section.img > p {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.712);
     width: 400px;
+    text-shadow: 2px 1px 2px black;
+    border: none;
 }
+
+section#img01 {
+    background-image: url(imagemprojetomacaco/macacozelador.png);
+    background-size: cover;
+    background-position: right center;
+
+}
+
+section#img02 {
+    background-image: url(imagemprojetomacaco/macacoheroi.png);
+    background-size: cover;
+
+}
+
 footer {
     background-color: black;
     color: white;
     text-align: justify;
     padding: 5px 0px;
     font-variant: small-caps;
-    font-weight: bold;
-    font-size: smaller;
+    font-weight: normal;
+    font-size: 1.5em;
     padding: 10px;
 }
